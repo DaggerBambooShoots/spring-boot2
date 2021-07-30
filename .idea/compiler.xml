@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="test-consumer" />
+        <module name="springboot-provider" />
+        <module name="01-springboot-interface" />
+        <module name="02-test-provider" />
+        <module name="springboot-consumer" />
+        <module name="02-test-interface" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="01-springboot-interface" target="1.5" />
+      <module name="02-test-interface" target="8" />
+      <module name="02-test-provider" target="1.8" />
+      <module name="springboot-consumer" target="1.8" />
+      <module name="springboot-dubbo-mybatis-redis-jsp-consumer" target="1.8" />
+      <module name="springboot-provider" target="1.8" />
+      <module name="test-consumer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="02-test-provider" options="-parameters" />
+      <module name="springboot-consumer" options="-parameters" />
+      <module name="springboot-provider" options="-parameters" />
+      <module name="test-consumer" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../spring-boot/01-springboot-interface/01-springboot-interface.iml" filepath="$PROJECT_DIR$/../spring-boot/01-springboot-interface/01-springboot-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-test-interface/02-test-interface.iml" filepath="$PROJECT_DIR$/02-test-interface/02-test-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-test-provider/02-test-provider.iml" filepath="$PROJECT_DIR$/02-test-provider/02-test-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-boot/01-springboot-consumer/springboot-consumer.iml" filepath="$PROJECT_DIR$/../spring-boot/01-springboot-consumer/springboot-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-boot/01-springboot-provider/springboot-provider.iml" filepath="$PROJECT_DIR$/../spring-boot/01-springboot-provider/springboot-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-test-consumer/test-consumer.iml" filepath="$PROJECT_DIR$/02-test-consumer/test-consumer.iml" />
+    </modules>
+  </component>
+</project>
